@@ -2,13 +2,13 @@
   "DASHBOARD": {
     "LABEL": "Dashboard",
     "RECENT_ACTIVITES": {
-      "LABEL": "Seneste aktiviteter",
-      "INCIDENT": "Seneste hændelser",
-      "REPORT": "Seneste rapporter",
-      "BOLO": "Nylige Bolos",
-      "WARRANT": "Nylige Warrants",
-      "EVIDENCE": "Nylige beviser",
-      "WEAPON": "Nylige registrerede våben"
+      "LABEL": "Seneste Aktiviteter",
+      "INCIDENT": "Seneste Hændelser",
+      "REPORT": "Seneste Rapporter",
+      "BOLO": "Seneste Eftersøgninger",
+      "WARRANT": "Seneste Krigsforretninger",
+      "EVIDENCE": "Seneste Beviser",
+      "WEAPON": "Seneste Registrerede Våben"
     },
     "ANNOUNCEMENTS": {
       "LABEL": "Meddelelser"
@@ -17,33 +17,33 @@
   "CITIZENS": {
     "LABEL": "Borgere",
     "EDIT": "Rediger borger {identifier}",
-    "GRANT": "Giv licens",
-    "REVOKE": "Tilbagekald licens"
+    "GRANT": "Giv Tilladelse",
+    "REVOKE": "Tilbagekald Tilladelse"
   },
   "INCIDENTS": {
     "LABEL": "Hændelser",
     "EDIT": "Rediger hændelse {id}",
     "CRIMINAL": {
-      "LABEL": "Kriminelle svindlere",
+      "LABEL": "Kriminelle",
       "CRIMINALS": {
-        "LABEL": "(",
-        "EDIT": "Rediger gebyrer",
-        "WARRANT": "arrestordre",
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Rediger ",
+        "WARRANT": "Arrestordre",
         "HOLD": "Hold indtil retssag",
-        "TRIAL": "Har været til retssag",
-        "REASON": "Begrundelse for kendelse",
-        "DATE": "Vælg dato og tid",
+        "TRIAL": "Været til retssag",
+        "REASON": "Årsag til arrestordre",
+        "DATE": "Vælg Dato og Tid",
         "REDUCTION": {
-          "LABEL": "Reduktion",
-          "PLACEHOLDER": "Vælg reduktion",
-          "DATA": "{procent}% / ${fine} bøde / {fængsel} dag(e) / {points} point"
+          "LABEL": "Nedskæring",
+          "PLACEHOLDER": "Vælg nedskæring",
+          "DATA": "{percentage}% / ${fine} bøde / {jail} måned(er) / {points} point(s)"
         },
-        "PLEADED": "Erkendte sig skyldig",
-        "PROCESSED": "Bearbejdet",
+        "PLEADED": "Erklæret skyldig",
+        "PROCESSED": "Behandlet",
         "CHARGES": {
-          "SELECTED": "Udvalgte gebyrer",
-          "ALL_CHARGES": "Alle afgifter",
-          "NONE_FOUND": "Ingen gebyrer fundet"
+          "SELECTED": "Valgt ",
+          "ALL_CHARGES": "Alle anklager",
+          "NONE_FOUND": "Ingen Fundet"
         }
       }
     }
@@ -53,43 +53,43 @@
     "EDIT": "Rediger rapport {id}"
   },
   "BOLOS_WARRANTS": {
-    "LABEL": "Bolos",
+    "LABEL": "Eftersøgninger & Arrestordrer",
     "BOLOS": {
-      "LABEL": "Bolos"
+      "LABEL": "Eftersøgninger"
     },
     "WARRANTS": {
-      "LABEL": "Warrants",
+      "LABEL": "Arrestordrer",
       "CLOTHES": {
-        "HAT": "Hat: {type} | ",
-        "MASK": "Maske: {type} | ",
-        "JACKET": "Jakke: {type} | ",
-        "GLOVES": "Handsker: {type} | ",
-        "PANTS": "Bukser: {type} | ",
-        "SHOES": "Sko: {type} | "
+        "HAT": "Hat: {type} | {color}",
+        "MASK": "Maske: {type} | {color}",
+        "JACKET": "Jakke: {type} | {color}",
+        "GLOVES": "Handsker: {type} | {color}",
+        "PANTS": "Bukser: {type} | {color}",
+        "SHOES": "Sko: {type} | {color}"
       }
     }
   },
   "VEHICLES": {
     "LABEL": "Køretøjer",
-    "EDIT": "Rediger køretøj {plade}"
+    "EDIT": "Rediger køretøj {plate}"
   },
   "EVIDENCE": {
-    "LABEL": "Beviser",
+    "LABEL": "Bevis",
     "EDIT": "Rediger bevis {id}",
     "CATEGORY": "Kategori: {category}"
   },
   "CAMERAS": {
     "LABEL": "Kameraer",
     "AV1": "AV1",
-    "NO_INPUT": "Intet indgangssignal.",
+    "NO_INPUT": "Ingen input signal.",
     "ONLINE": "Online"
   },
   "WEAPON_REGISTRY": {
-    "LABEL": "våbenregister",
+    "LABEL": "Våbenregister",
     "EDIT": "Rediger våben {id}"
   },
   "LEGISLATIONS": {
-    "LABEL": "Lovgivninger",
+    "LABEL": "Lovgivning",
     "EDIT": "Rediger lovgivning {id}"
   },
   "STAFF": {
@@ -102,20 +102,20 @@
       "EDIT": "Rediger SOP {id}"
     },
     "ROSTER": {
-      "LABEL": "Roster"
+      "LABEL": "Tjenesteplan"
     },
     "ACADEMY": {
-      "LABEL": "Akademiark",
-      "ADD": "Tilføj ny officer"
+      "LABEL": "Akademi Ark",
+      "ADD": "Tilføj ny betjent"
     },
     "DATABASE": {
-      "LABEL": "Disciplinær database",
-      "ADD": "Tilføj ny officer"
+      "LABEL": "Disciplinær Database",
+      "ADD": "Tilføj ny betjent"
     },
     "CODES_COMMANDS": {
-      "LABEL": "10 koder",
+      "LABEL": "10 Koder & Kommandoer",
       "CODES": {
-        "LABEL": "10 koder",
+        "LABEL": "10 Koder",
         "CODE": "Kode",
         "DESCRIPTION": "Beskrivelse"
       },
@@ -127,7 +127,7 @@
     }
   },
   "CHARGE": {
-    "LABEL": "Charges"
+    "LABEL": "Anklager"
   },
   "CONFIGURATIONS": {
     "LABEL": "Konfigurationer",
@@ -136,125 +136,125 @@
       "EDIT": "Rediger personale {identifier}",
       "DATA": "Data",
       "NO_ACTIVITY": "Ingen aktivitet endnu",
-      "CLOCKED_IN": "Klokket ind",
-      "CLOCKED_OUT": "Klokket ud",
-      "SUSPEND": "Suspendere",
-      "FIRE": "Brand"
+      "CLOCKED_IN": "Stemplet ind",
+      "CLOCKED_OUT": "Stemplet ud",
+      "SUSPEND": "Suspender",
+      "FIRE": "Fyr"
     },
     "ROLES": {
       "LABEL": "Roller",
       "NEW": "Ny rolle",
       "DESCRIPTION": "Vælg specifikke roller, som officeren skal have tilladelse til",
       "LABELS": {
-        "FULL_ACCESS": "Fuld adgang",
+        "FULL_ACCESS": "Fuld Adgang",
         "CONFIGURATIONS": {
-          "VIEW": "Adgang til konfigurationer",
-          "STAFF": "Kontroller personaledata",
-          "STAFF_ROLES": "Rediger medarbejderroller",
-          "ROLES": "Data om kontrolroller",
-          "CHARGES": "Kontrolafgiftsdata"
+          "VIEW": "Adgang til Konfigurationer",
+          "STAFF": "Kontrol over Personaledata",
+          "STAFF_ROLES": "Rediger Personaleroller",
+          "ROLES": "Kontrol over Rolledata",
+          "": "Kontrol over Data"
         },
         "DASHBOARD": {
-          "VIEW": "Få adgang til Dashboard-siden",
+          "VIEW": "Adgang til Dashboard Side",
           "ANNOUNCEMENTS": {
-            "CREATE": "Opret meddelelser",
-            "EDIT": "Rediger meddelelser",
-            "DELETE": "Slet meddelelser"
+            "CREATE": "Opret Meddelelser",
+            "EDIT": "Rediger Meddelelser",
+            "DELETE": "Slet Meddelelser"
           }
         },
         "CITIZENS": {
-          "VIEW": "Få adgang til borgersiden",
-          "SEARCH": "Søg efter borgerdata",
-          "EDIT": "Rediger borgerdata"
+          "VIEW": "Adgang til Borgere Side",
+          "SEARCH": "Søg i Borgerdata",
+          "EDIT": "Rediger Borgerdata"
         },
         "INCIDENTS": {
-          "VIEW": "Få adgang til siden med hændelser",
-          "SEARCH": "Søg hændelsesdata",
-          "CREATE": "Opret hændelsesdata",
-          "EDIT": "Rediger hændelsesdata",
-          "DELETE": "Slet hændelsesdata"
+          "VIEW": "Adgang til Hændelser Side",
+          "SEARCH": "Søg i Hændelsesdata",
+          "CREATE": "Opret Hændelsesdata",
+          "EDIT": "Rediger Hændelsesdata",
+          "DELETE": "Slet Hændelsesdata"
         },
         "REPORTS": {
-          "VIEW": "Få adgang til rapportsiden",
-          "SEARCH": "Søg i rapportdata",
-          "CREATE": "Opret rapportdata",
-          "EDIT": "Rediger rapportdata",
-          "DELETE": "Slet rapportdata"
+          "VIEW": "Adgang til Rapporter Side",
+          "SEARCH": "Søg i Rapportdata",
+          "CREATE": "Opret Rapportdata",
+          "EDIT": "Rediger Rapportdata",
+          "DELETE": "Slet Rapportdata"
         },
         "BOLOS_WARRANTS": {
-          "VIEW": "Få adgang til Bolos",
-          "CREATE": "Opret bolos",
-          "EDIT": "Rediger Bolos",
-          "DELETE": "Slet Bolos"
+          "VIEW": "Adgang til Eftersøgninger & Arrestordrer Side",
+          "CREATE": "Opret Eftersøgninger & Arrestordrer Data",
+          "EDIT": "Rediger Eftersøgninger & Arrestordrer Data",
+          "DELETE": "Slet Eftersøgninger & Arrestordrer Data"
         },
         "VEHICLES": {
-          "VIEW": "Få adgang til siden for køretøjer",
-          "SEARCH": "Søg køretøjsdata",
-          "EDIT": "Rediger køretøjsdata"
+          "VIEW": "Adgang til Køretøjer Side",
+          "SEARCH": "Søg i Køretøjsdata",
+          "EDIT": "Rediger Køretøjsdata"
         },
         "EVIDENCE": {
-          "VIEW": "Få adgang til bevissiden",
-          "SEARCH": "Søg efter bevisdata",
-          "CREATE": "Opret bevisdata",
-          "EDIT": "Rediger bevisdata",
-          "DELETE": "Slet bevisdata"
+          "VIEW": "Adgang til Bevis Side",
+          "SEARCH": "Søg i Bevisdata",
+          "CREATE": "Opret Bevisdata",
+          "EDIT": "Rediger Bevisdata",
+          "DELETE": "Slet Bevisdata"
         },
         "CAMERAS": {
-          "VIEW": "Få adgang til siden Kameraer"
+          "VIEW": "Adgang til Kameraer Side"
         },
         "WEAPON_REGISTRY": {
-          "VIEW": "Få adgang til våbenregistersiden",
-          "SEARCH": "Søg i våbenregisterdata",
-          "CREATE": "Opret våbenregisterdata",
-          "EDIT": "Rediger våbenregisterdata",
-          "DELETE": "Slet data fra våbenregisteret"
+          "VIEW": "Adgang til Våbenregister Side",
+          "SEARCH": "Søg i Våbenregisterdata",
+          "CREATE": "Opret Våbenregisterdata",
+          "EDIT": "Rediger Våbenregisterdata",
+          "DELETE": "Slet Våbenregisterdata"
         },
         "LEGISLATIONS": {
-          "VIEW": "Få adgang til siden Lovgivning",
-          "SEARCH": "Søg i lovgivningsdata",
-          "CREATE": "Opret lovgivningsdata",
-          "EDIT": "Rediger lovgivningsdata",
-          "DELETE": "Slet lovgivningsdata"
+          "VIEW": "Adgang til Lovgivning Side",
+          "SEARCH": "Søg i Lovgivningsdata",
+          "CREATE": "Opret Lovgivningsdata",
+          "EDIT": "Rediger Lovgivningsdata",
+          "DELETE": "Slet Lovgivningsdata"
         },
         "STAFF": {
-          "VIEW": "Få adgang til personalemenuen",
-          "VIEW_STAFF": "Få adgang til personalesiden",
+          "VIEW": "Adgang til Personalemenu",
+          "VIEW_STAFF": "Adgang til Personaleside",
           "SOP": {
-            "VIEW": "Få adgang til SOP-siden",
-            "SEARCH": "Søg SOP-data",
-            "CREATE": "Opret SOP-data",
-            "EDIT": "Rediger SOP-data",
-            "DELETE": "Slet SOP-data"
+            "VIEW": "Adgang til SOP Side",
+            "SEARCH": "Søg i SOP Data",
+            "CREATE": "Opret SOP Data",
+            "EDIT": "Rediger SOP Data",
+            "DELETE": "Slet SOP Data"
           },
           "ROSTER": {
-            "VIEW": "Få adgang til listesiden",
-            "EDIT": "Rediger Roster Data"
+            "VIEW": "Adgang til Tjenesteplansside",
+            "EDIT": "Rediger Tjenesteplansdata"
           },
           "ACADEMY": {
-            "VIEW": "Få adgang til akademiarksiden",
-            "ADD": "Føj officerer til akademiark",
-            "EDIT": "Rediger akademiarkdata",
-            "DELETE": "Slet Academy Sheet Data"
+            "VIEW": "Adgang til Akademi Ark Side",
+            "ADD": "Tilføj Betjente til Akademi Ark",
+            "EDIT": "Rediger Akademi Ark Data",
+            "DELETE": "Slet Akademi Ark Data"
           },
           "DATABASE": {
-            "VIEW": "Få adgang til disciplinærdatabasesiden",
-            "ADD": "Føj officerer til disciplinærdatabase",
-            "EDIT": "Rediger disciplinærdatabasedata",
-            "DELETE": "Slet disciplinærdatabasedata"
+            "VIEW": "Adgang til Disciplinær Database Side",
+            "ADD": "Tilføj Betjente til Disciplinær Database",
+            "EDIT": "Rediger Disciplinær Databasedata",
+            "DELETE": "Slet Disciplinær Databasedata"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Få adgang til 10 koder"
+            "VIEW": "Adgang til 10 Koder & Kommandoer Side"
           }
         },
         "CHARGES": {
-          "VIEW": "Access Charges Page"
+          "VIEW": "Adgang til Anklager Side"
         }
       }
     },
     "CHARGES": {
-      "LABEL": "Afgifter",
+      "LABEL": "Anklager",
       "CHARGES": {
-        "LABEL": "Afgifter"
+        "LABEL": "Anklager"
       },
       "CATEGORIES": {
         "LABEL": "Kategorier"
@@ -267,141 +267,141 @@
     "DAY": "dag",
     "HOUR": "time",
     "MINUTE": "minut",
-    "SECOND": "anden",
+    "SECOND": "sekund",
     "S": "s",
     "AGO": "siden",
-    "LEFT": "venstre",
+    "LEFT": "tilbage",
     "JUST_NOW": "Lige nu",
     "EXPIRED": "Udløbet",
     "AND": "og"
   },
   "AVATAR": "Avatar",
-  "OFFICER": "Officer",
+  "OFFICER": "Betjent",
   "STATUS": "Status",
   "ACTIVE": "Aktiv",
   "INACTIVE": "Inaktiv",
   "ACTIONS": "Handlinger",
-  "SET_WAYPOINT": "Indstil et waypoint",
-  "UNKNOWN_CATEGORY": "Ukendt kategori",
-  "STATEID": "Stats-id: (",
-  "FULLNAME": "Fulde navn: {fuldnavn}",
-  "BADGENUMBER": "Badge",
+  "SET_WAYPOINT": "Sæt waypoint",
+  "UNKNOWN_CATEGORY": "Ukendt Kategori",
+  "STATEID": "Stats ID: (#{identifier})",
+  "FULLNAME": "Fulde navn: {fullname}",
+  "BADGENUMBER": "Mærkenummer: {badgenumber}",
   "CREATED_BY": "Oprettet af: {user}",
-  "TAG": "(",
-  "POSTED_BY": "Indsendt af: {user}",
-  "OWNED_BY": "Ejet af: (",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Opslået af: {user}",
+  "OWNED_BY": "Ejet af: (#{identifier}) {fullname}",
   "LAST_SEEN": "Sidst set {date}",
-  "AUTHOR": "Forfatter: {bruger}",
+  "AUTHOR": "Forfatter: {user}",
   "OWNER": "Ejer: {owner}",
-  "PLATE": "Tallerken: {plade}",
+  "PLATE": "Nummerplade: {plate}",
   "COLOR": "Farve: {color}",
   "REASON": "Årsag: {reason}",
-  "EXPIRES": "Udløber: {dato}",
-  "DESCRIPTION": "{beskrivelse}",
+  "EXPIRES": "Udløber: {date}",
+  "DESCRIPTION": "{description}",
   "FINE": "Bøde: ${fine}",
-  "JAIL": "Fængselstid: {fængsel} dag(e)",
-  "POINTS": "Punkt(er): {points}",
+  "JAIL": "Fængselstid: {jail} måned(er)",
+  "POINTS": "Point(s): {points}",
   "CATEGORY": "Kategori: {category}",
-  "VIEW": "Udsigt",
-  "EDIT": "Redigere",
+  "VIEW": "Vis",
+  "EDIT": "Rediger",
   "SEARCH": "Søg",
-  "CREATE": "skab",
-  "UNLINK": "Fjern linket",
-  "SAVE": "Gemme",
-  "UPDATE": "Opdatering",
+  "CREATE": "Opret",
+  "UNLINK": "Fjern link",
+  "SAVE": "Gem",
+  "UPDATE": "Opdater",
   "DELETE": "Slet",
-  "CLEAR": "Klar",
-  "CLOSE": "Tæt",
-  "JOIN": "Tilslutte",
-  "LEAVE": "Forlade",
-  "REMOVE": "Fjerne",
-  "ADD": "Tilføje",
-  "CANCEL": "Afbestille",
-  "CONFIRM": "Bekræfte",
+  "CLEAR": "Ryd",
+  "CLOSE": "Luk",
+  "JOIN": "Tilslut",
+  "LEAVE": "Forlad",
+  "REMOVE": "Fjern",
+  "ADD": "Tilføj",
+  "CANCEL": "Annuller",
+  "CONFIRM": "Bekræft",
   "RESUME": "Genoptag",
   "POPUP": {
-    "CANCEL": "Afbestille",
-    "CONFIRM": "Bekræfte",
+    "CANCEL": "Annuller",
+    "CONFIRM": "Bekræft",
     "IMAGE": "Er du sikker på, at du vil fjerne dette billede fra galleriet?",
     "SAVE": "Vil du gemme {label}?",
     "DELETE": "Vil du slette {label}?",
-    "ACTIVITY": "Er du sikker på, at du vil rydde denne officers aktivitetsdata?"
+    "ACTIVITY": "Er du sikker på, at du vil rydde denne betjents aktivitetsdata?"
   },
   "PLACEHOLDER": {
-    "STATEID": "Stats-id",
+    "STATEID": "Stats ID",
     "FULLNAME": "Fulde navn",
     "ALIAS": "Alias",
     "DEPARTMENT": "Afdeling",
     "RANK": "Rang",
     "CALLSIGN": "Kaldesignal",
-    "BADGENUMBER": "Badge",
+    "BADGENUMBER": "Mærkenummer",
     "PHOTO": "Foto",
     "TITLE": "Titel",
     "NOTES": "Noter",
-    "LOCATION": "Beliggenhed",
+    "LOCATION": "Placering",
     "AUTHOR": "Forfatter",
     "CATEGORY": "Kategori",
     "UNKNOWN": "Ukendt",
-    "REASON": "Grund",
-    "PLATE": "Plade",
+    "REASON": "Årsag",
+    "PLATE": "Nummerplade",
     "OWNER": "Ejer",
     "COLOR": "Farve",
     "DATE": "Dato og tid",
     "SEARCH": "Søg",
     "SELECT": "Vælg",
     "FILTER": "Filter",
-    "CLOTHING": "Type tøj",
+    "CLOTHING": "Type af tøj",
     "LINK": "Vedhæft link",
-    "LABEL": "Etiket",
+    "LABEL": "Mærkat",
     "DESCRIPTION": "Beskrivelse",
-    "SERIAL": "Seriel",
+    "SERIAL": "Serienummer",
     "WEAPON": "Våben",
     "ACTIONS": "Handlinger",
-    "OFFICERS": "Officerer",
+    "OFFICERS": "Betjente",
     "PREFIX": "Præfiks",
     "FINE": "Bøde",
     "JAIL": "Fængsel",
     "POINTS": "Points",
-    "WANTED": "ØNSKEDE",
-    "FLAGGED": "FLAGET",
+    "WANTED": "EFTERSØGT",
+    "FLAGGED": "MARKERET",
     "ALL": "Alle"
   },
   "BOXES": {
     "IDENTITY": "Identitet",
     "LICENCES": "Licenser",
-    "STATS": "Statistik",
-    "ITEMS": "genstande",
+    "STATS": "Statistikker",
+    "ITEMS": "Genstande",
     "TAGS": "Tags",
     "VEHICLES": "Køretøjer",
-    "HOUSING": "Ejendomme",
+    "HOUSING": "Boliger",
     "EMPLOYMENT": "Beskæftigelse",
-    "CONVICTIONS": "Convictions",
+    "CONVICTIONS": "Domme",
     "WEAPONS": "Våben",
     "ROLES": "Roller",
     "GALLERY": "Galleri",
-    "OFFICERS": "Involverede betjente",
-    "CITIZENS": "Involverede borgere",
-    "INCIDENTS": "Relaterede hændelser",
-    "REPORTS": "Relaterede rapporter",
-    "EVIDENCE": "Relateret bevis",
+    "OFFICERS": "Involverede Betjente",
+    "CITIZENS": "Involverede Borgere",
+    "INCIDENTS": "Relaterede Hændelser",
+    "REPORTS": "Relaterede Rapporter",
+    "EVIDENCE": "Relateret Bevis",
     "ACTIVITY": "Aktivitet"
   },
   "CAMERA": {
     "GALLERY": "Galleri",
-    "OPEN": "Åbent kamera",
-    "VIEW": "Se galleri",
+    "OPEN": "Åben kamera",
+    "VIEW": "Vis galleri",
     "UPLOAD": "Upload",
     "DELETE": "Slet"
   },
   "CHARGES": {
-    "FINE": "${fine} Fint",
-    "JAIL": "{fængsel} dag(e)",
-    "POINTS": "{points} punkt(er)"
+    "FINE": "${fine} Bøde",
+    "JAIL": "{jail} Måned(er)",
+    "POINTS": "{points} Point(s)"
   },
   "EDITOR": {
-    "BOLD": "Fremhævet",
+    "BOLD": "Fed",
     "ITALIC": "Kursiv",
-    "STRIKE": "Strejke",
+    "STRIKE": "Gennemstreget",
     "TEXT": {
       "PARAGRAPH": "Afsnit",
       "H1": "H1",
@@ -412,51 +412,51 @@
       "H6": "H6"
     },
     "COLOR": "Farve",
-    "CLEAR_MARKS": "Tydelige mærker",
+    "CLEAR_MARKS": "Ryd markeringer",
     "CLEAR_NODES": "Ryd noder",
-    "BULLET_LIST": "Punktliste",
-    "ORDERED_LIST": "Bestilt liste",
-    "HARD_BREAK": "Hård pause",
+    "BULLET_LIST": "Punktopstilling",
+    "ORDERED_LIST": "Nummereret liste",
+    "HARD_BREAK": "Hårdt skift",
     "UNDO": "Fortryd",
     "REDO": "Gentag"
   },
   "INVENTORY": {
     "COUNT": "Antal: {count}",
     "ITEM_DATA": {
-      "serial": "Serie: {serie}",
+      "serial": "Serienummer: {serial}",
       "durability": "Holdbarhed: {durability}",
-      "ammo": "Ammunition: {ammunition}",
-      "street": "Sted: {gade}",
+      "ammo": "Ammo: {ammo}",
+      "street": "Sted: {street}",
       "type": "Kategoritype: {type}",
       "dnalabel": "DNA: {dnalabel}",
-      "label": "Etiket: {label}",
-      "date": "Dato: {dato}",
+      "label": "Mærkat: {label}",
+      "date": "Dato: {date}",
       "tracking": "Sporing: {tracking}",
-      "component": "Komponent: {komponent}",
-      "item": "Vare: {item}",
+      "component": "Komponent: {component}",
+      "item": "Genstand: {item}",
       "memoryCard": "Hukommelseskort {memoryCard}",
       "flashEnabled": "Flash: {flashEnabled}",
-      "birthdate": "Fødselsdato: {fødselsdato}",
-      "nationaility": "Nationalitet: {nationalitet}",
-      "identifier": "Stats-id: {identifier}",
+      "birthdate": "Fødselsdato: {birthdate}",
+      "nationaility": "Nationalitet: {nationaility}",
+      "identifier": "Stats ID: {identifier}",
       "gender": "Køn: {gender}",
-      "firstname": "Fornavn: {fornavn}",
-      "lastname": "Efternavn: {efternavn}"
+      "firstname": "Fornavn: {firstname}",
+      "lastname": "Efternavn: {lastname}"
     }
   },
   "NO_ACCESS": {
     "TITLE": "ADGANG NÆGTET",
     "DESCRIPTION": "Du har ikke adgang til MDT",
-    "BUTTON": "Tæt"
+    "BUTTON": "Luk"
   },
   "SUSPENDED": {
     "TITLE": "ADGANG NÆGTET",
     "DESCRIPTION": "Det ser ud til, at du er blevet suspenderet og ikke kan få adgang til MDT",
-    "BUTTON": "Tæt"
+    "BUTTON": "Luk"
   },
   "ERROR403": {
     "STATUS": "403",
-    "TITLE": "403 - Du skal ikke bestå",
-    "DESCRIPTION": "Åh, Gandalf spærrer vejen!"
+    "TITLE": "403 - Du Skal Ikke Passere",
+    "DESCRIPTION": "Uh oh, Gandalf blokerer vejen!"
   }
 }
