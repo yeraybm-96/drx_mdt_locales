@@ -45,7 +45,7 @@
         "CHARGES": {
           "SELECTED": "Vald ",
           "ALL_CHARGES": "Alla Straff",
-          "NONE_FOUND": "Inga funna"
+          "NONE_FOUND": "Inga hittades"
         }
       }
     }
@@ -129,16 +129,16 @@
     },
 
     "CODES_COMMANDS": {
-      "LABEL": "10 Codes & Commands",
+      "LABEL": "10 Koder & Kommandon",
       "CODES": {
-        "LABEL": "10 Codes",
-        "CODE": "Code",
-        "DESCRIPTION": "Description"
+        "LABEL": "10 Koder",
+        "CODE": "Kod",
+        "DESCRIPTION": "Beskrivning"
       },
       "COMMANDS": {
-        "LABEL": "Commands",
-        "COMMAND": "Command",
-        "ACTION": "Action"
+        "LABEL": "Kommandon",
+        "COMMAND": "Kommando",
+        "ACTION": "Åtgärd"
       }
     }
   },
@@ -263,7 +263,7 @@
             "DELETE": "Ta bort Disciplinära Handlingar"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Access 10 Codes & Commands Page"
+            "VIEW": "Tillgång till 10 Koder & Kommandon"
           }
         },
         "CHARGES": {
@@ -291,8 +291,8 @@
     "MINUTE": "minuter",
     "SECOND": "sekunder",
     "S": "",
-    "AGO": "Sen",
-    "LEFT": "Kvar",
+    "AGO": "sedan",
+    "LEFT": "kvar",
     "JUST_NOW": "Just nu",
     "EXPIRED": "Utgången",
     "AND": "och"
@@ -314,27 +314,27 @@
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Inlagt av: {user}",
   "OWNED_BY": "Ägare: (#{identifier}) {fullname}",
-  "LAST_SEEN": "Senast sedd {date}",
+  "LAST_SEEN": "Senast sedd: {date}",
   "AUTHOR": "Skribent: {user}",
   "OWNER": "Ägare: {owner}",
-  "PLATE": "Regsistreringskylt: {plate}",
-  "COLOR": "Lack: {color}",
+  "PLATE": "Registreringsskylt: {plate}",
+  "COLOR": "Färg: {color}",
   "REASON": "Anledning: {reason}",
-  "EXPIRES": "Går ut: {date}",
+  "EXPIRES": "Förfaller: {date}",
   "DESCRIPTION": "{description}",
   "FINE": "Böter: ${fine}",
-  "JAIL": "Fängelsetid: {jail} day(s)",
+  "JAIL": "Fängelsetid: {jail} dag(ar)",
   "POINTS": "Prick(ar): {points}",
   "CATEGORY": "Kategori: {category}",
 
-  "VIEW": "Se",
+  "VIEW": "Visa",
   "EDIT": "Redigera",
   "SEARCH": "Sök",
   "CREATE": "Skapa",
-  "UNLINK": "Ta bort länk",
+  "UNLINK": "Bryt länk",
   "SAVE": "Spara",
   "UPDATE": "Uppdatera",
-  "DELETE": "Ta bort",
+  "DELETE": "Radera",
   "CLEAR": "Rensa",
   "CLOSE": "Stäng",
   "JOIN": "Gå med",
@@ -370,9 +370,9 @@
     "CATEGORY": "Kategori",
     "UNKNOWN": "Okänd",
     "REASON": "Anledning",
-    "PLATE": "Registeringskylt",
+    "PLATE": "Registreringsskylt",
     "OWNER": "Ägare",
-    "COLOR": "Lack",
+    "COLOR": "Färg",
     "DATE": "Datum och Tid",
     "SEARCH": "Sök",
     "SELECT": "Välj",
@@ -420,7 +420,7 @@
     "OPEN": "Öppna Kamera",
     "VIEW": "Kolla Galleri",
     "UPLOAD": "Ladda upp",
-    "DELETE": "Ta bort"
+    "DELETE": "Radera"
   },
 
   "CHARGES": {
@@ -443,7 +443,7 @@
       "H6": "H6"
     },
     "COLOR": "Färg",
-    "CLEAR_MARKS": "Ta bort ändringar",
+    "CLEAR_MARKS": "Ta bort formatering",
     "CLEAR_NODES": "Ta bort punkter",
     "BULLET_LIST": "Punktlista",
     "ORDERED_LIST": "Sifferlista",
@@ -455,8 +455,8 @@
   "INVENTORY": {
     "COUNT": "Antal: {count}",
     "ITEM_DATA": {
-      "serial": "Serie-nummer: {serial}",
-      "durability": "Förslitning: {durability}",
+      "serial": "Serienummer: {serial}",
+      "durability": "Hållbarhet: {durability}",
       "ammo": "Ammunition: {ammo}",
       "street": "Plats: {street}",
       "type": "Kategorityp: {type}",
@@ -485,7 +485,7 @@
 
   "SUSPENDED": {
     "TITLE": "ÅTKOMST NEKAD",
-    "DESCRIPTION": "Du har blivit avständ och kan inte använda MDT'n",
+    "DESCRIPTION": "Du har blivit avstängd och kan inte använda MDT'n",
     "BUTTON": "Stäng"
   },
 
