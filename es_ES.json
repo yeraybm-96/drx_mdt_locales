@@ -129,9 +129,9 @@
     },
 
     "CODES_COMMANDS": {
-      "LABEL": "Códigos y Comandos 10",
+      "LABEL": "Códigos y Comandos",
       "CODES": {
-        "LABEL": "Códigos 10",
+        "LABEL": "Códigos",
         "CODE": "Código",
         "DESCRIPTION": "Descripción"
       },
@@ -314,7 +314,7 @@
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Publicado por: {user}",
   "OWNED_BY": "Propiedad de: (#{identifier}) {fullname}",
-  "LAST_SEEN": "Visto por última vez {date}",
+  "LAST_SEEN": "Visto por última vez a {date}",
   "AUTHOR": "Autor: {user}",
   "OWNER": "Propietario: {owner}",
   "PLATE": "Placa: {plate}",
