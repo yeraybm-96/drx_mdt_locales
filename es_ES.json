@@ -38,7 +38,7 @@
         "REDUCTION": {
           "LABEL": "Reducción",
           "PLACEHOLDER": "Seleccionar reducción",
-          "DATA": "{percentage}% / €{fine} multa / {jail} día(s) / {points} punto(s)"
+          "DATA": "{percentage}% / ${fine} multa / {jail} día(s) / {points} punto(s)"
         },
         "PLEADED": "Culpable",
         "PROCESSED": "Procesado",
@@ -314,7 +314,7 @@
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Publicado por: {user}",
   "OWNED_BY": "Propiedad de: (#{identifier}) {fullname}",
-  "LAST_SEEN": "Visto por última vez a {date}",
+  "LAST_SEEN": "Visto por última vez {date}",
   "AUTHOR": "Autor: {user}",
   "OWNER": "Propietario: {owner}",
   "PLATE": "Placa: {plate}",
@@ -322,7 +322,7 @@
   "REASON": "Motivo: {reason}",
   "EXPIRES": "Expira: {date}",
   "DESCRIPTION": "{description}",
-  "FINE": "Multa: €{fine}",
+  "FINE": "Multa: ${fine}",
   "JAIL": "Tiempo en la cárcel: {jail} día(s)",
   "POINTS": "Punto(s): {points}",
   "CATEGORY": "Categoría: {category}",
@@ -423,7 +423,7 @@
   },
 
   "CHARGES": {
-    "FINE": "Multa de €{fine}",
+    "FINE": "Multa de ${fine}",
     "JAIL": "{jail} Día(s)",
     "POINTS": "{points} Punto(s)"
   },
